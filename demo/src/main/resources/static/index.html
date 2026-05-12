@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mars Rover</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Mars Rover Controller</h1>
+
+    <div class="controls">
+        <input type="text" id="commands" placeholder="Enter Commands (FFRFF)">
+        
+        <button onclick="moveRover()">Move Rover</button>
+        <button onclick="resetRover()">Reset Rover</button>
+    </div>
+
+    <h2>Rover Status</h2>
+
+    <p id="roverData"></p>
+
+    <div id="grid" class="grid"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
